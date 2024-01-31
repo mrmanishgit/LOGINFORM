@@ -1,0 +1,100 @@
+<Html>  
+<head> STUDENT REGISTRATION FORM 
+<title>  
+Registration Page  
+</title>  
+</head>  
+<body  background="C:\HTML\mm.jpg" text="white"  >  
+
+<br>  
+<br>  
+<form>  
+  
+<label> Firstname: </label>         
+<input type="text" name="firstname" size="15"/> <br> <br>  
+<label> Middlename: </label>     
+<input type="text" name="middlename" size="15"/> <br> <br>  
+<label> Lastname: </label>         
+<input type="text" name="lastname" size="15"/> <br> <br>  
+  
+<label> Course :  </label>   
+<select>  
+<option value="Course">Course</option>  
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>  
+<option value="B.Tech">B.Tech</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>  
+</select>  
+ <br> 
+<br> 
+
+<label>   Branch :  </label>   
+<select>  
+<option value="Branch">Branch</option>  
+<option value="CSE">CSE</option>  
+<option value="ME">ME</option>  
+<option value="CIVIL">CIVIL</option>  
+<option value="EE">EE</option>  
+<option value="ECE">ECE</option>  
+<option value="GM">GM</option>
+<option value="FM">FM</option>
+<option value="IBM">IBM</option>
+</select> 
+<br>
+<br>
+
+<label> Course Year : </label>
+<select>  
+<option value="Course Year">Year</option>  
+<option value="1st Year">1st Year</option>  
+<option value="2nd Year">2nd Year</option>  
+<option value="3rd Year">3rd Year</option>  
+<option value="4th Year">4th Year</option>  
+</select> 
+<br>
+<br>
+
+<label>   Gender :  </label><br>  
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br>  
+<input type="radio" name="other"/> Other  
+<br>  
+<br>  
+  
+<label>   Phone :  </label>  
+<input type="tel" name="country code"  value="+91" size="2"/>   
+<input type="tel" name="phone" size="10"/> <br> <br>  
+
+Address  
+<br>  
+<textarea cols="80" rows="5" value="address" >  
+</textarea>  
+<br> <br>  
+
+Email:  
+<input type="email" id="email" name="email"/> <br>    
+<br> <br>  
+
+Password:  
+<input type="Password" id="pass" name="pass"> <br>   
+<br> <br>  
+
+Re-type password:  
+<input type="Password" id="repass" name="repass"> <br> <br> 
+
+Reference:
+<input type="taxt" name="names" sixe="15"/>
+<br>
+
+<input type="button" value="Submit"/>
+<input type="button" value="Reset"/>
+<input type="button" value="login"/>
+
+<br>
+<br>
+
+</form>  
+</body>  
+</html> 
